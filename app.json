@@ -4,7 +4,7 @@
 	"repository": "https://github.com/jpillora/cloud-torrent",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
+			"description": "Optionally set the title of this instance (defaults to 'Chinmay')",
 			"required": false
 		},
 		"AUTH": {
