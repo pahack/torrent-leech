@@ -4,7 +4,7 @@ package server
 //cloud-torrent uses "<id>-item" handlers
 var defaultSearchConfig = []byte(`{
 	"kat": {
-		"name": "JOKER Server 1",
+		"name": "CYBERSHARK-KAT",
 		"url": "http://torrent-dx.com/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
 		"list": "#mainSearchTable table tr[id]",
 		"result": {
@@ -17,7 +17,7 @@ var defaultSearchConfig = []byte(`{
 		}
 	},
 	"tpb": {
-		"name": "JOKER Server 2",
+		"name": "CYBER SHARK-PIRATE BAY",
 		"url": "https://thepiratebay.se/search/{{query}}/{{page:0}}/7//",
 		"list": "#searchResult > tbody > tr",
 		"result": {
@@ -30,7 +30,7 @@ var defaultSearchConfig = []byte(`{
 		}
 	},
 	"abb": {
-		"name": "JOKER Server 3",
+		"name": "CYBERSHARK AUDIOBAY",
 		"url": "http://audiobookbay.co/page/{{page:1}}?s={{query}}",
 		"list": "#content > div",
 		"result": {
