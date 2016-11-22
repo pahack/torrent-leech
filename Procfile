@@ -1,1 +1,1 @@
-web: cloud-torrent
+web: joker-torrent
